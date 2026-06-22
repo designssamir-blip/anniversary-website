@@ -1,0 +1,413 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 1 Year Anniversary ❤️</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#2d0036,#6a0dad,#ff69b4);
+color:white;
+overflow-x:hidden;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,0.3);
+backdrop-filter:blur(10px);
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.hero h2{
+font-size:2rem;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+font-size:1.2rem;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:12px 25px;
+background:#ff69b4;
+border-radius:30px;
+color:white;
+text-decoration:none;
+}
+
+.section{
+padding:100px 20px;
+}
+
+.section h2{
+text-align:center;
+font-size:3rem;
+margin-bottom:50px;
+}
+
+.timeline{
+max-width:900px;
+margin:auto;
+}
+
+.timeline-item{
+background:rgba(255,255,255,0.1);
+padding:20px;
+margin-bottom:20px;
+border-radius:15px;
+backdrop-filter:blur(10px);
+}
+
+.timeline-item h3{
+color:#ffd6ff;
+margin-bottom:10px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+transition:0.4s;
+cursor:pointer;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.letter{
+max-width:800px;
+margin:auto;
+text-align:center;
+font-size:1.1rem;
+line-height:1.8;
+}
+
+.counter{
+font-size:2rem;
+text-align:center;
+margin-top:20px;
+font-weight:bold;
+color:#fff2ff;
+}
+
+.music-btn{
+position:fixed;
+right:20px;
+bottom:20px;
+padding:15px;
+border:none;
+border-radius:50px;
+background:#ff69b4;
+color:white;
+cursor:pointer;
+font-size:16px;
+z-index:1000;
+}
+
+footer{
+padding:40px;
+text-align:center;
+background:rgba(0,0,0,0.3);
+}
+
+.heart{
+position:fixed;
+font-size:20px;
+animation:float 6s linear infinite;
+pointer-events:none;
+}
+
+@keyframes float{
+0%{
+transform:translateY(100vh);
+opacity:1;
+}
+100%{
+transform:translateY(-100px);
+opacity:0;
+}
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.3rem;
+}
+
+.hero h2{
+font-size:1.3rem;
+}
+
+.section h2{
+font-size:2rem;
+}
+
+.gallery img{
+height:180px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#timeline">Timeline</a>
+<a href="#gallery">Gallery</a>
+<a href="#letter">Letter</a>
+</nav>
+
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+<button class="music-btn" id="musicBtn">🎵 Music</button>
+
+<section class="hero" id="home">
+
+<h1>❤️ Happy One Year Anniversary ❤️</h1>
+
+<h2>My Babyy Preetii</h2>
+
+<p>
+Thank you so much for giving me that letter that made my whole life.
+I was in tears of joy while reading that letter.❤️
+</p>
+
+<div class="counter" id="daysCounter"></div>
+
+<a href="#timeline" class="btn">Our Journey ↓</a>
+
+</section>
+
+<section class="section" id="timeline">
+
+<h2>📅 Our Timeline</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>💜 First Meeting</h3>
+<p>Our first meeting was actually in school days.
+    But our first meeting where we felt shy was also in school with both of our red faces.
+    It was so special where i gifted you the first earring of the manyy.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>🌸 First Date</h3>
+<p>Where to tell our first date.That school or picnic but i would say shankhamul park where we 
+    ate icecream while walking from your office to there.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>❤️ Relationship Started</h3>
+<p>The day everything changed June 23 when you said you have something for me and it was 
+    that love letter wowwwwwwww.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>🎂 Birthday Memory</h3>
+<p>Birthday in Fun Park Birthday in pimbahal are the favoritr memories of my life.
+    i will love to spend my every birthday with you and yours with meee
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>🎉 One Year Together</h3>
+<p>The most beautiful chapter so far with smile laughter fights teasing and manyt more to come.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="gallery">
+
+<h2>📸 Our Memories</h2>
+
+<div class="gallery">
+
+<img src="images/photo1.jpg">
+<img src="images/photo2.jpg">
+<img src="images/photo3.jpg">
+<img src="images/photo4.jpg">
+<img src="images/photo5.jpg">
+
+<img src="images/photo6.jpg">
+<img src="images/photo7.jpg">
+<img src="images/photo8.jpg">
+<img src="images/photo9.jpg">
+<img src="images/photo10.jpg">
+
+<img src="images/photo11.jpg">
+<img src="images/photo12.jpg">
+<img src="images/photo13.jpg">
+<img src="images/photo14.jpg">
+<img src="images/photo15.jpg">
+
+<img src="images/photo16.jpg">
+<img src="images/photo17.jpg">
+<img src="images/photo18.jpg">
+<img src="images/photo19.jpg">
+<img src="images/photo20.jpg">
+
+<img src="images/photo21.jpg">
+<img src="images/photo22.jpg">
+<img src="images/photo23.jpg">
+<img src="images/photo24.jpg">
+<img src="images/photo25.jpg">
+
+</div>
+
+</section>
+
+<section class="section" id="letter">
+
+<h2>💌 A Letter For my Preetii</h2>
+
+<div class="letter">
+
+<p>
+One year ago, You made my day so so special that leads to this wholesome journey
+</p>
+
+<p>
+Thank you for every smile, every laugh,
+every late-night conversation,
+every hug, every memory,
+and every moment we've shared together.
+</p>
+
+<p>
+You are my favorite person,Your face makes me calm.
+sometimes you shout which make me understand many things
+I hope i can hold my baccha my wholee life till i die
+wanna make fish pond tress and many places and many dresses to try for my love
+</p>
+
+<p>
+Here's to many more years together.
+❤️
+</p>
+
+</div>
+
+</section>
+
+<footer>
+Made With Love ❤️ Just For You My Preetiii
+</footer>
+
+<script>
+
+const startDate = new Date("2025-06-23");
+const today = new Date();
+
+const diff =
+Math.floor(
+(today - startDate)/(1000*60*60*24)
+);
+
+document.getElementById("daysCounter").innerHTML =
+"❤️ Together For " + diff + " Days ❤️";
+
+const music = document.getElementById("music");
+const btn = document.getElementById("musicBtn");
+
+btn.addEventListener("click", () => {
+    if (music.paused) {
+        music.play();
+        btn.innerHTML = "⏸ Pause";
+    } else {
+        music.pause();
+        btn.innerHTML = "🎵 Music";
+    }
+});
+document.addEventListener("click", () => {
+    music.play();
+}, { once: true });
+
+function createHeart(){
+
+const heart = document.createElement("div");
+
+heart.classList.add("heart");
+
+heart.innerHTML="❤️";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.fontSize=
+Math.random()*20+15+"px";
+
+document.body.appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},6000);
+
+}
+
+setInterval(createHeart,500);
+
+</script>
+
+</body>
+</html>
+```
